@@ -1,0 +1,2 @@
+export const DELETE_CARDS = "DELETE_CARDS";
+export const GENERATE_CARDS = "GENERATE_CARDS";
