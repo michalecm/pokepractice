@@ -1,7 +1,7 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import PokeCard from "./PokeCard";
 import { useSelector, useDispatch } from "react-redux";
-import { generateCards } from "../actions/cardContainerActions";
+import { generateCards } from "../store/actions/cardContainerActions";
 import { CardsContainer } from "../util/styles";
 
 export default function CardContainer() {

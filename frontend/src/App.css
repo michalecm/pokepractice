@@ -1,4 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 .cardsContainer {
   display: flex;
   flex-direction: row;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.header h2 {
+  margin-left: 15px;
+}
+
+.logo {
+  width: 62px;
+  height: 62px;
+  margin-left: 50px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.nav-links li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrapper {
+  align-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.poketextarea {
+  border: 2px solid #b3a125;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 70%;
+  height: 35px;
+  padding: 7px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-style {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-style:visited {
+  color: black;
 }
